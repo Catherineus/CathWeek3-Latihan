@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sederhana</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        article {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        video, audio {
+            width: 50%; /* Mengatur lebar media menjadi 50% dari ukuran container */
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog Catherine Cihuyyy</h1>
+    </header>
+
+    <section id="home">
+        <article>
+            <h2>Artikel Pertama</h2>
+            <p>Selamat datang di blog Catherine Cihuyyy.</p>
+            <h3>James Sunderland - Silent Hill</h3>
+            <p>James Sunderland adalah protagonis dari Silent Hill 2. Dia datang ke kota Silent Hill setelah menerima surat dari istrinya, Mary, yang telah meninggal beberapa tahun sebelumnya. Perjalanan James di kota penuh kabut ini memperlihatkan sisi psikologisnya yang kompleks, berhadapan dengan rasa bersalah dan penebusan.</p>
+        </article>
+    </section>
+
+    <section id="media">
+        <h2>Video Silent Hill James Ganteng</h2>
+        <video controls>
+            <source src="Silent Hill 2 Remake Abstract Daddy.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+        </video>
+    </section>
+
+    <section>
+        <h2>Audio Background</h2>
+        <audio controls>
+            <source src="audiocath.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung audio.
+        </audio>
+    </section>
+
+    <section id="contact">
+        <h2>Form Kontak</h2>
+        <form action="#" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+</body>
+</html>
